@@ -6,16 +6,16 @@ tasks:
     pluginsSDKPath: liferay-plugins-sdk-6.2-ee-sp20/
     upgradeVersion: '7.3'
     upgrades:
-    #- name: plugins-create-modules
-    #- name: plugins-convert-build
-    #- name: plugins-migrate-code
-    #- name: remove-legacy-files
-    #- name: update-service-builder-modules
-    #- name: upgrade-workspace-version
-    #- name: use-target-platform
-    #- name: use-release-api
-    #- name: auto-correct-breaking-changes
-    #- name: find-breaking-changes
+     - name: plugins-create-modules
+     - name: plugins-convert-build
+     - name: plugins-migrate-code
+     - name: remove-legacy-files
+     - name: update-service-builder-modules
+     - name: upgrade-workspace-version
+     - name: use-target-platform
+     - name: use-release-api
+     - name: auto-correct-breaking-changes
+     - name: find-breaking-changes
      - name: upgrade-portal-properties
        params:
          properties:
